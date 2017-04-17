@@ -60,6 +60,7 @@ void calcula(void){
 }
 
 int main(){
+    calcula();
 
     return 0;
 }
