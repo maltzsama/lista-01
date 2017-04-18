@@ -6,7 +6,7 @@ int soma (int vet[9], int n) {
    else {
       int s;
       s = soma (vet, n-1);
-      if (vet[n-1] > 0) s += v[n-1];
+      if (vet[n-1] > 0) s += vet[n-1];
       return s;
    }
 }
